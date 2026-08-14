@@ -1,0 +1,62 @@
+@import url(/assets/css/root.css);
+/* header below */
+header {
+  box-shadow: 0px 4px 35px 0px #00000014;
+}
+.h-right input {
+  border: 1px solid #00000033;
+  outline: none;
+}
+/* main */
+
+.edit_profile {
+  border: 1px solid #000; 
+}
+
+
+
+@media (max-width: 1023px) {
+  /* header  */
+  .search_icon {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+  }
+  .hb {
+    width: 50px;
+    height: 50px;
+  }
+  .h-left {
+    gap: 22px;
+  }
+}
+
+@media (max-width: 640px) {
+  /* header below 1024 */
+  header {
+    padding-top: 9px;
+    padding-bottom: 9px;
+  }
+  .logo img {
+    width: 109.11px;
+    height: 32px;
+  }
+  .h-left {
+    gap: 18px;
+  }
+  .hb {
+    width: 24px;
+    height: 24px;
+    margin-right: 0;
+  }
+  /* header right side  */
+  .search_icon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+  }
+  .h-right .user_img {
+    width: 32px;
+    height: 32px;
+  }
+}
