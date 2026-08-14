@@ -83,7 +83,7 @@ input:checked + .slider::before {
   background: #1a9fff;
 }
 
-.section-galley {
+.gallery {
   background-image: url(/assets/images/bg_img.png);
   min-height: 412px;
   background-size: cover;
@@ -695,7 +695,7 @@ input:checked ~ .nav-left-links {
     margin-top: -76px;
   }
 
-  .section-galley {
+  .gallery {
     min-height: 188px;
   }
 
